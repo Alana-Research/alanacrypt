@@ -1,9 +1,6 @@
 # alana-crypt module
 
-## TODO:
-
-- implement tests
-- Implement a context to cancel encryption https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go
+Golang module used in Alana Research encryption related projects.
 
 ## Example
 
@@ -37,3 +34,7 @@ keyEnc, err := asym.RSAEncrypt(key, RSA4096PubKeyString)
 pathSaved, err := asym.SaveAsHEXToFile(keyEnc, "./", "keySaved", "txt")
 ```
 
+## TODO:
+
+- implement tests
+- Implement a context to cancel encryption https://www.digitalocean.com/community/tutorials/how-to-use-contexts-in-go
